@@ -1,0 +1,133 @@
+body{
+    margin: 0%;
+    height: 100vh;
+    background-color: #1C1C1C;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Karla", system-ui;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+
+#main{
+    color: white;
+    background-color: #1F2937;
+    width: 550px;
+    height: 550px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px ;
+
+    font-family: "Karla", system-ui;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+
+#container{
+    width: 445px;
+    height: 450px;
+
+    font-family: "Karla", system-ui;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+
+
+#heading{
+    font-size: 40px;
+    font-weight: 800;    
+    margin-top: 65px;
+
+    font-family: "Karla", system-ui;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+
+#heading_span{
+    color: #34D399;
+    font-size: 40px;
+    font-weight: 800;
+
+    font-family: "Karla", system-ui;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+
+}
+
+#tagline{
+    font-size: 20px;
+    opacity: 0.78;
+    margin-bottom: 50px;
+
+    font-family: "Karla", system-ui;
+    font-optical-sizing: auto;
+    
+    font-style: normal;
+}
+
+#btn{
+    background-color: #10B981;
+    width: 190px;
+    height: 42px;
+
+    color: rgb(223, 231, 227);
+
+    font-size: 16px;
+    border-radius: 5px;
+
+    margin-bottom: 25px;
+
+    border: 2px solid #10B981;
+
+}
+
+
+hr{
+    opacity: 0.1;
+    margin-bottom: 33px;
+}
+
+
+
+#pass{
+    display: inline-flex;
+}
+
+#p1{
+    width: 210px;
+    height: 40px;
+    background-color: #273549; 
+    border-radius: 5px;
+    margin-right: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #55F991;
+}
+
+#p2{
+  
+    width: 210px;
+    height: 40px;
+    background-color: #273549;   
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #55F991;
+}

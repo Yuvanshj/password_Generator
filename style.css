@@ -1,4 +1,4 @@
-@media (min-width : 400px){
+@media (min-width : 420px){
 
 
     body{
@@ -138,7 +138,7 @@
 }
 
 
-@media (max-width:450px){
+@media (min-width:0px) and (max-width:420px){
     
 body{
     margin: 0%;

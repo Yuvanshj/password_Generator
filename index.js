@@ -32,8 +32,12 @@ function password_2() {
   }
 
 
+  let paa = document.getElementById("pass") 
+
 function password_generator(){
-    
+    paa.style.opacity = 1
+    document.getElementById("line").style.opacity = 0.1
+
 if(count===0){   
     password_1()
     password_2()
@@ -45,5 +49,8 @@ if(count===0){
     password_2()
 }
 
-    count++
+    count++;
+
+
+    
 }   

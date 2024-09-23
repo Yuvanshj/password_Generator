@@ -20,8 +20,8 @@
     #main{
         color: white;
         background-color: #1F2937;
-        width: 550px;
-        height: 550px;
+        width: 500px;
+        height: 480px;
 
         display: flex;
         justify-content: center;
@@ -96,8 +96,8 @@
     }
 
 
-    hr{
-        opacity: 0.1;
+    #line{
+        opacity: 0;
         margin-bottom: 33px;
     }
 
@@ -105,9 +105,11 @@
 
     #pass{
         display: inline-flex;
+        opacity: 0;
     }
 
     #p1{
+        
         width: 210px;
         height: 40px;
         background-color: #273549; 
@@ -122,7 +124,6 @@
     }
 
     #p2{
-    
         width: 210px;
         height: 40px;
         background-color: #273549;   
@@ -237,8 +238,8 @@ body{
 }
 
 
-hr{
-    opacity: 0.1;
+#line{
+    opacity: 0;
     margin-bottom: 33px;
 }
 
@@ -247,6 +248,8 @@ hr{
 #pass{
     display: inline-flex;
     flex-wrap: wrap;
+
+    opacity: 0; 
 }
 
 #p1{

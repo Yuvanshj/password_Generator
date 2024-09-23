@@ -19,13 +19,29 @@
         
         <div id="tagline"> Never use an insecure password again.</div>
         
-        <button id="btn" onclick="password_generator()"> Generate passwords</button>
+        <div id="line2">
+            <hr>
+        </div>
 
+        <!-- Rounded switch -->
+         <div id="btn_container">
+            <h4 id="numsymb">Include numbers and symbols</h4>
+            <label class="switch">
+                <input type="checkbox" id="inp" checked>
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+        <div id="line1">
+            <hr>
+        </div>
+      <button id="btn" onclick="password_generator()"> Generate passwords</button>
+       
         <div id="line"><hr></div>
         
         <div id="pass">
-            <div id="p1"> </div>
-            <div id="p2"> </div>
+            <div id="p1" class="addMore" title="Copy to clipboard"> </div>
+            <div id="p2" class="addMore" title="Copy to clipboard">  </div>
         </div>
     
     </div>

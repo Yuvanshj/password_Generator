@@ -17,6 +17,7 @@ let char = [
     let pass_1 = document.getElementById("p1")
     let pass_2 = document.getElementById("p2")
     
+    
     let count = 0;
     
     let checkBox = document.getElementById("inp")
